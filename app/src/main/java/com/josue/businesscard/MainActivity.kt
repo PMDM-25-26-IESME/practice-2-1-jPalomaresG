@@ -14,6 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             BusinessCardTheme {
+
                 BusinessCard(
                     name = "Ricardo Sánchez",
                     job = "IT Teacher",
